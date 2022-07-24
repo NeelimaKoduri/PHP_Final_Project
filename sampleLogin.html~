@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            SampleLogin
+        </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    </head>
+    <body>
+    <h4>Login</h4>
+        <form action="sampleoutput.php" method="post">
+            Please enter login credentials<br>
+             <input name="username" type="text-box" placeholder="Username"><br>
+             <input name="password" type="password" placeholder="Password"><br>
+            <input name="Login" type="submit">
+        </form>
+    </body>
+</html>

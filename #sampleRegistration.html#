@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Registration</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+	</head>
+	<body>
+	<h4> Registration</h4>
+		<input name="firstname" type="text-box" placeholder="Firstname"><br>
+		<input name="lastname" type="text-box" placeholder="Lastname"><br>
+		<input name="dob" type="date" placeholder="Date of birth"><br>
+		<input name="email" type="email" placeholder="Email Address"><br>
+		<input name="password" type="password" placeholder="Password"><br>
+		<input name="confpassword" type="password" placeholder="Confirm Password"><br>
+		<input name="Register" type="submit" placeholder="Register"><br>
+	</body>
+</html>
+		
+		

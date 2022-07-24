@@ -1,0 +1,29 @@
+<?php
+
+classes subject{
+
+    /*putting all the properties here*/
+    protected $username;
+    protected $password;  
+
+    /*setter methods*/
+    public function setUsername($user){
+        $this->username=$user;
+    }
+    public function setPassword($pwd){
+        $this->password=$pwd;
+    }
+
+    /*getter methods*/
+    public function getUsername(){
+        return $this->username;
+    }
+
+    public function getPassword(){
+        return $this->password;
+    }
+
+    
+
+}
+?>

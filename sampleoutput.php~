@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title> PHP and Processing</title>
+    </head>
+    <body>
+    <?php
+echo "0";
+print_r($_POST);
+ 
+echo "1";
+   /*getting property values from Form*/
+   $user=$_POST['username'];
+   $pwd=$_POST['password'];
+echo "2";
+include_once 'classes.php';
+   /*instantiate and populate the current subject*/
+   $currsub=new subject();
+echo "3";
+   /*calling setter methods by passing username and password from the login form*/
+   $currsub->setUsername($user);
+   $currsub->setPassword($pwd);
+
+   echo "Welcome".$currsub->getUsername();
+  
+
+
+   ?>
+</body>
+</html>
